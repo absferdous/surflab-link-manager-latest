@@ -1,0 +1,30 @@
+/* Status indicator dots */
+.status-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.status-publish {
+  background-color: #46b450;
+}
+.status-draft {
+  background-color: #ffb900;
+}
+.status-private {
+  background-color: #dc3232;
+}
+
+/* Edit link styling */
+.row-actions .button-link {
+  color: #2271b1;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.row-actions .button-link:hover {
+  color: #135e96;
+  text-decoration: underline;
+}
